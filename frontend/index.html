@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Resume Analyzer AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h1>Resume Analyzer AI</h1>
+
+  <textarea id="resumeText" placeholder="Paste your resume here..."></textarea>
+  <button onclick="analyzeResume()">Analyze</button>
+
+  <div class="result">
+    <h2 id="resultTitle"></h2>
+
+    <div class="section">
+      <h3>Strengths</h3>
+      <ul id="strengthsList"></ul>
+    </div>
+
+    <div class="section">
+      <h3>Areas for Improvement</h3>
+      <ul id="improvementsList"></ul>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
